@@ -5,7 +5,7 @@ Some configuration and scripts to create a very basic SSL certificate authority 
 ## Features
 
 - Create RSA or ECDSA keys
-  - RSA keys will be 4096 bits
+  - RSA keys will be created with a 4096-bit modulus
   - ECDSA keys will be created using the NIST P-256 curve
 - CA certificates will have
   - Key usage limited to digital signature and certificate signing
